@@ -1,0 +1,22 @@
+# ---------------------------------------------------
+# Z-Way Dynamic Command Configuration
+# ---------------------------------------------------
+# Define command shortcuts here. The plugin will execute the corresponding
+# command string from the console when a player runs /zw <path>.
+#
+# For example, a player running "/zw teleport.spawn" will trigger the
+# console to run the command defined under 'teleport.spawn'.
+#
+# AVAILABLE PLACEHOLDERS:
+# %player% - The name of the player who ran the command.
+
+commands:
+  # Usage: /zw teleport.spawn
+  teleport:
+    spawn: "minecraft:teleport %player%  12 66 -3"
+
+  give:
+    diamond: "minecraft:give %player% minecraft:diamond 5"
+
+  effect:
+    speed: "effect give %player% minecraft:speed 30 1"

@@ -1,0 +1,9 @@
+name: ZeroWays
+version: '1.0-SNAPSHOT'
+main: gg.discord.angryzero.zeroWays.Main
+api-version: '1.21'
+authors: [ angryzero ]
+commands:
+  zw:
+    description: Dynamic command gateway for menus.
+    usage: /zw <shortcut> <args>
